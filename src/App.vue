@@ -1,8 +1,8 @@
 <template>
   <nav>
-    <router-link to="/register">Register</router-link>
+    <router-link to="/">Register</router-link>
     <router-link to="/sign-in">Sign In</router-link>
-    <router-link to="/">Start page</router-link>
+    <router-link to="/startpage">Start page</router-link>
     <router-link to="/jsonplaceholder">Content from jsonplaceholder API</router-link>
     <router-link to="/storage">Vuex storage</router-link>
     <button style="max-width: max-content; display: block; margin: 20px auto 0;" class="sendBtn btn btn-primary" @click="handleSignOut" v-if="isLoggedIn">Sign Out</button>
