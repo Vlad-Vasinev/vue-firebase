@@ -22,7 +22,7 @@ const register = () => {
         console.log("Successfully registered");
         console.log(auth.currentUser.email);
         // commit("setNewCurrentUser", auth.currentUser.email);
-        router.push("/")
+        router.push("/startpage")
     })
     .catch((error) => {
         console.log(error.code)
