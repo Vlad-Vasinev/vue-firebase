@@ -55,7 +55,7 @@ const register = () => {
   signInWithEmailAndPassword(auth, email.value, password.value)
     .then((data) => {
       console.log("Successfully signed in");
-      router.push("/");
+      router.push("/startpage");
     })
     .catch((error) => {
       console.log(error.code);
