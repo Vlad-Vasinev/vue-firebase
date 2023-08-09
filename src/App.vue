@@ -32,7 +32,7 @@ import router from "./router";
 
   const handleSignOut = () => {
     signOut(auth).then(() => {
-      router.push("/register");
+      router.push("/");
     })
   }
 </script>
