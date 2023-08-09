@@ -14,7 +14,7 @@ const routes = [
     }
   },
   {
-    path: '/',
+    path: '/startpage',
     name: 'startPage',
     component: StartView,
     meta: {
@@ -30,7 +30,7 @@ const routes = [
     }
   },
   {
-    path: '/register',
+    path: '/',
     component: () => import ("../views/Register.vue")
   },
   {
