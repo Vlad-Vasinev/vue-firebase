@@ -7,6 +7,7 @@
 - load a content on a webpage
 - adding element to page
 - editing element on page
+- saving content on a page despite on user's reloading
 - searching an element on a page
 - deleting element from page
 
